@@ -87,14 +87,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RKX-jt-ByV">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="3" width="38" height="24"/>
+=======
+                                                    <rect key="frame" x="20" y="5" width="33" height="20.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Cell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VtS-Sr-h4M">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="27" width="20" height="13.5"/>
+=======
+                                                    <rect key="frame" x="20" y="25.5" width="20" height="13.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -111,14 +119,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4mb-uA-ood">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="3" width="38" height="24"/>
+=======
+                                                    <rect key="frame" x="20" y="5" width="33" height="20.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RHD-aa-ML7">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="27" width="33" height="13.5"/>
+=======
+                                                    <rect key="frame" x="20" y="25.5" width="33" height="13.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -139,14 +155,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wT7-pJ-lx8">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="3" width="38" height="24"/>
+=======
+                                                    <rect key="frame" x="20" y="5" width="33" height="20.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i4d-gc-qcR">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="27" width="28" height="13.5"/>
+=======
+                                                    <rect key="frame" x="20" y="25.5" width="28" height="13.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -167,14 +191,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="53f-aJ-rmb">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="3" width="38" height="24"/>
+=======
+                                                    <rect key="frame" x="20" y="5" width="33" height="20.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Street" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gze-UF-Tof">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="27" width="32" height="13.5"/>
+=======
+                                                    <rect key="frame" x="20" y="25.5" width="32" height="13.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -191,14 +223,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cgG-46-ean">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="3" width="38" height="24"/>
+=======
+                                                    <rect key="frame" x="20" y="5" width="33" height="20.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kNA-xO-OeN">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="27" width="21" height="13.5"/>
+=======
+                                                    <rect key="frame" x="20" y="25.5" width="21" height="13.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -215,14 +255,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bzI-ea-ask">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="3" width="38" height="24"/>
+=======
+                                                    <rect key="frame" x="20" y="5" width="33" height="20.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hy0-Rk-bvU">
+<<<<<<< HEAD
                                                     <rect key="frame" x="20" y="27" width="42" height="13.5"/>
+=======
+                                                    <rect key="frame" x="20" y="25.5" width="42" height="13.5"/>
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>

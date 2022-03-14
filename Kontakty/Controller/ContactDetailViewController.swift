@@ -47,7 +47,22 @@ class ContactDetailViewController: UITableViewController {
             adressCountryLabel.text = country
         }
         
+<<<<<<< HEAD
 
+=======
+        
+        
+        //let url = URL(string: contact?.picture.large)
+//        if url != nil {
+//            let data = try? Data(contentsOf: url!)
+//            DispatchQueue.main.async {
+//                if data != nil {
+//                    self.imageLarge.image = UIImage(data: data!)
+//                }
+//            }
+//        }
+//
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
         if let safeUrl = URL(string: contact?.picture.large ?? "error") {
             let data = try? Data(contentsOf: safeUrl)
              
@@ -58,6 +73,13 @@ class ContactDetailViewController: UITableViewController {
                 }
         }
         tableView.reloadData()
+<<<<<<< HEAD
+=======
+    }
+    
+    deinit {
+        print("Reclaiming memory for CD VC")
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
     }
     
     override func viewDidLoad() {
@@ -67,7 +89,14 @@ class ContactDetailViewController: UITableViewController {
         imageLarge.layer.masksToBounds = true
         imageLarge.layer.borderWidth = 0
         refreshUI()
+<<<<<<< HEAD
 
+=======
+//        DispatchQueue.main.async {
+//            self.tableView.reloadData()
+//        }
+//        Do any additional setup after loading the view.
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
     }
 
 }

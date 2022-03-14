@@ -70,7 +70,19 @@ class TableViewController: UITableViewController, ManagerDelegate {
             cell.lastNameLabel.text = (contactArray[indexPath.row].name.last + " " + contactArray[indexPath.row].name.first)
     
         let url = URL(string: contactArray[indexPath.row].picture.thumbnail)
+<<<<<<< HEAD
 
+=======
+//        if url != nil {
+//            let data = try? Data(contentsOf: url!)
+//            DispatchQueue.main.async {
+//                if data != nil {
+//                    cell.imageThumbnail.image = UIImage(data: data!)
+//                }
+//            }
+//        }
+//
+>>>>>>> fd1faecf45534eb2e93afcaf8b2ef6e0c0912430
         if let safeUrl = url {
             let data = try? Data(contentsOf: safeUrl)
             DispatchQueue.main.async {
@@ -79,6 +91,11 @@ class TableViewController: UITableViewController, ManagerDelegate {
                 }
             }
         }
+        
+        
+        
+        
+        
         return cell
     }
     
