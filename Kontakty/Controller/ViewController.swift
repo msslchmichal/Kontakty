@@ -37,6 +37,7 @@ class TableViewController: UITableViewController, ManagerDelegate {
     
     var contactArray = [Result]()
     var contactManager = Manager()
+    
     weak var delegate: ContactSelectionDelegate?
 
     override func viewDidLoad() {
@@ -62,14 +63,28 @@ class TableViewController: UITableViewController, ManagerDelegate {
             
             cell.lastNameLabel.text = (contactArray[indexPath.row].name.last + " " + contactArray[indexPath.row].name.first)
         let url = URL(string: contactArray[indexPath.row].picture.thumbnail)
-        if url != nil {
-            let data = try? Data(contentsOf: url!)
+//        if url != nil {
+//            let data = try? Data(contentsOf: url!)
+//            DispatchQueue.main.async {
+//                if data != nil {
+//                    cell.imageThumbnail.image = UIImage(data: data!)
+//                }
+//            }
+//        }
+//
+        if let safeUrl = url {
+            let data = try? Data(contentsOf: safeUrl)
             DispatchQueue.main.async {
-                if data != nil {
-                    cell.imageThumbnail.image = UIImage(data: data!)
+                if let safeData = data {
+                    cell.imageThumbnail.image = UIImage(data: safeData)
                 }
             }
         }
+        
+        
+        
+        
+        
         return cell
     }
     
