@@ -26,7 +26,7 @@ class ContactDetailViewController: UITableViewController {
     }
     
     private func refreshUI() {
-        print("refreshUI")
+       
         loadViewIfNeeded()
         if let contactLastName = contact?.name.last, let contactFirstName = contact?.name.first {
             lastNameLabel.text = contactLastName
@@ -47,30 +47,27 @@ class ContactDetailViewController: UITableViewController {
             adressCountryLabel.text = country
         }
         
-        tableView.reloadData()
-        
-        let url = URL(string: contact?.picture.large ?? "default")
-        if url != nil {
-            let data = try? Data(contentsOf: url!)
-            DispatchQueue.main.async {
-                if data != nil {
-                    self.imageLarge.image = UIImage(data: data!)
+
+        if let safeUrl = URL(string: contact?.picture.large ?? "error") {
+            let data = try? Data(contentsOf: safeUrl)
+             
+                if let safeData = data {
+                    DispatchQueue.main.async {
+                        self.imageLarge.image = UIImage(data: safeData)
+                    }
                 }
-            }
         }
+        tableView.reloadData()
     }
     
     override func viewDidLoad() {
-        print("ContactDetail viewDidLoad")
+       
         super.viewDidLoad()
         imageLarge.layer.cornerRadius = imageLarge.frame.size.height/2
         imageLarge.layer.masksToBounds = true
         imageLarge.layer.borderWidth = 0
         refreshUI()
-        DispatchQueue.main.async {
-            self.tableView.reloadData()
-        }
-        // Do any additional setup after loading the view.
+
     }
 
 }

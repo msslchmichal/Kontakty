@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6D087627DD12C6003C9014 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D087527DD12C6003C9014 /* SplitViewController.swift */; };
 		4E89057927DBB00500832181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89057827DBB00500832181 /* AppDelegate.swift */; };
 		4E89057B27DBB00500832181 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89057A27DBB00500832181 /* SceneDelegate.swift */; };
 		4E89057D27DBB00500832181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89057C27DBB00500832181 /* ViewController.swift */; };
@@ -14,9 +15,14 @@
 		4E89058327DBB00500832181 /* Kontakty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E89058127DBB00500832181 /* Kontakty.xcdatamodeld */; };
 		4E89058527DBB01000832181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E89058427DBB01000832181 /* Assets.xcassets */; };
 		4E89058827DBB01000832181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E89058627DBB01000832181 /* LaunchScreen.storyboard */; };
+		4E89059027DBB15900832181 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89058F27DBB15900832181 /* Contact.swift */; };
+		4E89059227DBB40C00832181 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89059127DBB40C00832181 /* Manager.swift */; };
+		4E89059A27DBF43C00832181 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89059927DBF43C00832181 /* ContactTableViewCell.swift */; };
+		4E89059C27DC0F8000832181 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89059B27DC0F8000832181 /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E6D087527DD12C6003C9014 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		4E89057527DBB00500832181 /* Kontakty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kontakty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E89057827DBB00500832181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E89057A27DBB00500832181 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		4E89058427DBB01000832181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E89058727DBB01000832181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E89058927DBB01000832181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E89058F27DBB15900832181 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		4E89059127DBB40C00832181 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		4E89059927DBF43C00832181 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		4E89059B27DC0F8000832181 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E6D087927DD2484003C9014 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E89057C27DBB00500832181 /* ViewController.swift */,
+				4E89059B27DC0F8000832181 /* ContactDetailViewController.swift */,
+				4E6D087527DD12C6003C9014 /* SplitViewController.swift */,
+				4E89059927DBF43C00832181 /* ContactTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E6D087A27DD249D003C9014 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E89058F27DBB15900832181 /* Contact.swift */,
+				4E89059127DBB40C00832181 /* Manager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E6D087B27DD24B6003C9014 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E89057E27DBB00500832181 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4E89056C27DBB00500832181 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +96,11 @@
 		4E89057727DBB00500832181 /* Kontakty */ = {
 			isa = PBXGroup;
 			children = (
+				4E6D087A27DD249D003C9014 /* Model */,
+				4E6D087B27DD24B6003C9014 /* View */,
+				4E6D087927DD2484003C9014 /* Controller */,
 				4E89057827DBB00500832181 /* AppDelegate.swift */,
 				4E89057A27DBB00500832181 /* SceneDelegate.swift */,
-				4E89057C27DBB00500832181 /* ViewController.swift */,
-				4E89057E27DBB00500832181 /* Main.storyboard */,
 				4E89058427DBB01000832181 /* Assets.xcassets */,
 				4E89058627DBB01000832181 /* LaunchScreen.storyboard */,
 				4E89058927DBB01000832181 /* Info.plist */,
@@ -141,7 +180,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E89057D27DBB00500832181 /* ViewController.swift in Sources */,
+				4E89059227DBB40C00832181 /* Manager.swift in Sources */,
 				4E89057927DBB00500832181 /* AppDelegate.swift in Sources */,
+				4E89059027DBB15900832181 /* Contact.swift in Sources */,
+				4E89059C27DC0F8000832181 /* ContactDetailViewController.swift in Sources */,
+				4E6D087627DD12C6003C9014 /* SplitViewController.swift in Sources */,
+				4E89059A27DBF43C00832181 /* ContactTableViewCell.swift in Sources */,
 				4E89058327DBB00500832181 /* Kontakty.xcdatamodeld in Sources */,
 				4E89057B27DBB00500832181 /* SceneDelegate.swift in Sources */,
 			);

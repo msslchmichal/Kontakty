@@ -12,7 +12,6 @@ struct Contact: Codable {
     
 }
 struct Result: Codable {
-    //let gender: String
     let name: Name
     let location: Location
     let email: String
